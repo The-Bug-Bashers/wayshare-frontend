@@ -3,7 +3,7 @@ Klimschutz auf dem Weg zur Schule
 
 This is the GitHub repo from the "wayshare" app. The app is used to connect people to come to school more climate-friendly.
 
-For security reasons, the backend of wayshare is not open source. If you want to get access to it, contact us via [E-Mail](support@wayshare.de).
+For security reasons, the backend of wayshare is not open source. If you want to get access to it, contact us via [E-Mail](mailto:support@wayshare.de).
 
 ## Kotlin Multiplatform Notes
 This is a Kotlin Multiplatform project targeting Android, iOS, Web.
