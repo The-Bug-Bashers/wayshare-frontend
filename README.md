@@ -1,22 +1,23 @@
 # wayshare
-Klimschutz auf dem Weg zur Schule
+Klimaschutz auf dem Weg zur Schule
+
+> [!CAUTION]
+> Please note that this project is still in its beta phase and not ready to be used yet.
 
 This is the GitHub repo from the "wayshare" app. The app is used to connect people to come to school more climate-friendly.
 
 For security reasons, the backend of wayshare is not open source. If you want to get access to it, contact us via [E-Mail](mailto:support@wayshare.de).
 
 ## Kotlin Multiplatform Notes
-This is a Kotlin Multiplatform project targeting Android, iOS, Web.
+This is a Kotlin Multiplatform project targeting Android, iOS and Web.
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
+* `/composeApp` is for code that will be shared across the Compose Multiplatform applications.
   It contains several subfolders:
   - `commonMain` is for code that’s common for all targets.
   - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+* `/iosApp` contains iOS applications. Even if the UI is being shared with Compose Multiplatform, 
+  this entry point is being needed for the iOS app. This is also where SwiftUI code should be added.
 
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
@@ -28,6 +29,3 @@ We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public S
 If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
 
 You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
-
-Please note that this project is still in it's beta phase and not ready to be used yet.
--
